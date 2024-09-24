@@ -1,9 +1,9 @@
 import React from 'react';
 import RootNavigator from './src/RootNavigator';
-import { BlogProvider } from "./src/context/BlogContext";
+import { Provider } from "./src/context/BlogContext";
 
 export default function App() {
-  return <BlogProvider>
+  return <Provider>
       <RootNavigator />
-    </BlogProvider>
+    </Provider>
 }
